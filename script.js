@@ -43,6 +43,7 @@ function print(msg) {
     console.log(msg)
 }
 
+/*-----------------*/
 
 let n = 10;
 function VerificarPar(num){
@@ -54,6 +55,7 @@ function VerificarPar(num){
 }
 VerificarPar(n)
 
+/*-----------------*/
 
 let nmr1 = 10
 let nmr2 = 35
@@ -65,9 +67,13 @@ function calcular(n1, n2) {
 }
 calcular(nmr1, nmr2)
 
+/*-----------------*/
+
 for (count = 10; count > 0; count--) {
     print(count)
 }
+
+/*-----------------*/
 
 let texto = "JavaScript"
 function inverterTexto(str){
@@ -78,11 +84,15 @@ function inverterTexto(str){
 }
 inverterTexto(texto)
 
+/*-----------------*/
+
 let string = "salve"
 function CountCaracter(str) {
     print(str.length)
 }
 CountCaracter(string)
+
+/*-----------------*/
 
 let carro = {
     marca: "Toyota",
@@ -91,12 +101,16 @@ let carro = {
 }
 print(carro.modelo)
 
+/*-----------------*/
+
 let nome = "leandro"
 let msg = ", você é o mago do roblox studio!"
 function mensagemPersonalizada(name, message) {
     print("Olá, " + name + message);
 }
 mensagemPersonalizada(nome, msg)
+
+/*-----------------*/
 
 let n1 = 10
 let n2 = 10
@@ -106,6 +120,8 @@ function media(nm1, nm2, nm3) {
 }
 media(n1, n2, n3)
 
+/*-----------------*/
+
 for (let i = 1; i < 21; i++) {
     if (i % 3 == 0) {
         print(i + " é multiplo de 3")
@@ -113,6 +129,8 @@ for (let i = 1; i < 21; i++) {
         print(i + " não é multiplo de 3")
     }
 }
+
+/*-----------------*/
 
 let strin = "arara"
 function verificarPalindromo(str) {
