@@ -67,7 +67,12 @@ while (count < 100) {
     }
 }
 
-/*Questão 14*/
+spalavra = "vermelho"
+function substituirPalavra(str) {
+    str = "azul"
+    print(str)
+}
+substituirPalavra(spalavra)
 
 let stringer = "socorro"
 function verificarTamanho(str) {
