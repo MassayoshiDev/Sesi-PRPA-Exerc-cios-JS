@@ -69,8 +69,10 @@ while (count < 100) {
 
 spalavra = "vermelho"
 function substituirPalavra(str) {
-    str = "azul"
-    print(str)
+    if (str == "vermelho") {
+        str = "azul"
+        print(str)
+    }
 }
 substituirPalavra(spalavra)
 
